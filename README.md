@@ -1,6 +1,6 @@
-# **Operating Systems: Worksheet 1**
+# Operating Systems: Worksheet 1
 
-This project explores the basics of **32-bit x86 assembly programming**.
+This project shows the basics of 32-bit x86 assembly programming.
 
 I've written several programs that work directly with CPU registers and memory, interfaced them with C code, and automated everything with a Makefile.
 
