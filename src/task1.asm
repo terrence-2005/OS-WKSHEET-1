@@ -2,8 +2,8 @@
 ;notes
 segment .data
     ;two integers to add
-    num1    dd  42          ; First number (42)
-    num2    dd  58          ; Second number (58)
+    num1    dd  15          ; First number (15)
+    num2    dd  6          ; Second number (6)
     result  dd  0           ; Storage for result
     msg1    db  "The sum is: ", 0
 
@@ -22,10 +22,10 @@ asm_main:
     call    print_string
     
     ; Load first number into EAX storage
-    mov     eax, [num1]     ; EAX = num1 (42)
+    mov     eax, [num1]     ; EAX = num1 (15)
     
     ; Add second number to EAX storage
-    add     eax, [num2]     ; EAX = EAX + num2 (42 + 58 = 100)
+    add     eax, [num2]     ; EAX = EAX + num2 (15 + 6 = 21)
     
     ; Store result
     mov     [result], eax   ; result = EAX

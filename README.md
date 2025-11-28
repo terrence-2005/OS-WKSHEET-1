@@ -25,8 +25,12 @@ gcc -m32 -no-pie driver.o task2_3.o asm_io.o -o task2_3
 ------------------
 Task 3
 
+USE "make" cmmd in the folder root directory to run all executables, rather than writing iindividual commands to generate the executable files
+
 "make clean" - to clear all executable files generated so u can start afresh
-"make" - to generate new exe files
 
 ------------------
 Task 4 README
+
+
+
