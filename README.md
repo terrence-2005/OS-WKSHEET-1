@@ -23,11 +23,11 @@ I've set up a Makefile to make building and running the code super easy.
    ./task2.2    \# Sum numbers 1-100  
    ./task2.3    \# Sum a specific range
 
-## **📝 Task Breakdown**
+## ** Task Breakdown**
 
 Here is what I built for each task, how it works, and proof that it runs successfully.
 
-### **🔹 Task 1: Getting Started**
+### **Task 1: **
 
 The goal here was to get comfortable with the basics: moving data into registers, doing math, and printing the results.
 
@@ -127,7 +127,7 @@ The tricky part here was calculating the correct starting memory address. I used
 
 **![][image8]**
 
-### **🔹 Task 3: Automating with Make**
+### ** Task 3: Automating with Make**
 
 To avoid typing long compilation commands every time, I created a Makefile. This script automates the entire build process.
 

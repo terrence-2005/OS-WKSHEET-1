@@ -1,8 +1,6 @@
 # Makefile for Operating Systems - Worksheet 1
-# Place this in the ROOT directory of your repo.
 
-# This version uses a PATTERN RULE to automatically handle
-# the src/ folder for ALL .asm files. This prevents typos.
+# the src/ folder for all .asm files prevents typos.
 
 .PHONY: all clean
 
